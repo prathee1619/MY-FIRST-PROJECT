@@ -1,0 +1,86 @@
+﻿h2 {
+    color: palevioletred;
+    background-color: black;
+    font-size: 56.5px;
+    font-family: monrose;
+    font-width:200px;
+    font-style: italic;
+    text-align:center;
+    justify-content:flex-end;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height=100%;
+    width=100%;
+    background-color:lightseagreen;
+}
+.pop{
+    text-align:center;
+    color:darkmagenta;
+    background-color:lightpink;
+    font-size:75px;
+    font-family:monrose;
+    font-style:italic;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+button {
+    color: indigo;
+    background-color: silver;
+    font-size: 75px;
+    font-family: monrose;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30%;
+    font-width: 400px;
+    border: 15px dashed orange;
+    border-radius: 50px;
+    position:absolute;
+    allign-items:center;
+}
+button:hover{
+    background-color:lightseagreen;
+    color:crimson;
+}
+
+.bomb {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(https://img.magnific.com/free-vector/abstract-red-neon-arrow-light-glow-background_107791-28871.jpg?semt=ais_hybrid&w=740&q=80)
+}
+box{
+    height:50%;
+    width:50%;
+}
+.bomb img{
+    height:50%;
+    width:30%;
+    background-position:center;
+
+}
+#h{
+    align-text:center;
+    color:thistle;
+    background-color:midnightblue;
+    font-style:italic;
+    font-family:monrose;
+    font-size:80px;
+    font-width:400px;
+}
+
+p {
+    align-text: center;
+    color:darkred;
+    background-color:orangered;
+    font-style: italic;
+    font-family: monrose;
+    font-size: 70px;
+    font-width: 300px;
+    margin-top:10px;
+}
